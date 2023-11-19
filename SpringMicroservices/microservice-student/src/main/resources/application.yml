@@ -6,9 +6,9 @@ spring:
     name: msvc-student
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/studentDb
+    url: jdbc:mysql://localhost:8889/student_db
     username: root
-    password: Atena32
+    password: root
   jpa:
     hibernate:
       ddl-auto: create
